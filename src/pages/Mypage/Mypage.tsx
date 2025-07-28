@@ -174,7 +174,7 @@ const Mypage = () => {
         {user && !isEditing && (
           <Stack spacing={2}>
             <Typography>
-              <strong>User Name:</strong> {user.username}
+              <strong>아이디:</strong> {user.username}
             </Typography>
             <Typography>
               <strong>이름:</strong> {user.name}
